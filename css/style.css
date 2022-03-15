@@ -3,3 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+h1{
+    display: inline-block;
+}
+
+header>img, h1{
+    vertical-align: middle;
+}
+
+header{
+    padding: 20px;
+}
