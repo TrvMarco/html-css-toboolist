@@ -38,6 +38,7 @@ body{
     background-color: white;
     padding: 15px 50px;
     border-radius: 0px 0px 10px 10px;
+    padding-bottom: 50px;
 }
 
 .button{
@@ -129,4 +130,8 @@ body{
 
 .spazio{
     margin-top: 5px;
+}
+
+.down-triangle{
+    font-size: 13px;
 }
