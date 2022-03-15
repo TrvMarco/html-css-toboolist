@@ -22,12 +22,22 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-main{
+.mainbox1{
     width: 1000px;
     margin: 0 auto;
     margin-top: 50px;
     background-color: white;
     padding: 15px 50px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.mainbox2{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 5px;
+    background-color: white;
+    padding: 15px 50px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 .button{
@@ -56,28 +66,33 @@ main{
 }
 
 .check-circle{
-    width: 25px;
-    height: 25px;
-    border: 1px solid #65c0a9;
-    color: #65c0a9;
-    border-radius: 100%;
-    font-size: 13px;
-    font-weight: bold;
-    /* padding: 2px 3.5px; */
     display: inline-block;
-    line-height: 25px;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #65c0a9;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: #65c0a9;
+    font-size: 12px;
+    font-weight: bold; 
 }
 
 .cross-circle{
-    border: 1px solid #ea4237;
-    color: #ea4237;
-    border-radius: 100%;
-    font-size: 13px;
-    font-weight: bold;
-    padding: 2px 3.5px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #ea453b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+    color: #ea453b;
+    font-size: 12px;
+    font-weight: bold; 
 }
 
 .tag{
+    display: inline-block;
     font-size: 10px;
     color: white;
     padding: 5px 10px;
@@ -110,4 +125,8 @@ main{
 
 .row{
     margin-top: 15px;
+}
+
+.spazio{
+    margin-top: 5px;
 }
