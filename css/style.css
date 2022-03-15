@@ -50,3 +50,27 @@ main{
     background-color: white;
     color: #c5cbd0;
 }
+
+.tasks{
+    padding: 35px 50px;
+}
+
+.check-circle{
+    border: 1px solid #65c0a9;
+    color: #65c0a9;
+    border-radius: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 2px 3.5px;
+}
+
+.tag{
+    font-size: 10px;
+    color: white;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.editorial{
+    background-color: #45abea;
+}
