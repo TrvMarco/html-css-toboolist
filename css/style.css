@@ -56,12 +56,16 @@ main{
 }
 
 .check-circle{
+    width: 25px;
+    height: 25px;
     border: 1px solid #65c0a9;
     color: #65c0a9;
     border-radius: 100%;
     font-size: 13px;
     font-weight: bold;
-    padding: 2px 3.5px;
+    /* padding: 2px 3.5px; */
+    display: inline-block;
+    line-height: 25px;
 }
 
 .cross-circle{
@@ -100,3 +104,10 @@ main{
     background-color: #d863a1;
 }
 
+.sales{
+    background-color: #b0c926;
+}
+
+.row{
+    margin-top: 15px;
+}
